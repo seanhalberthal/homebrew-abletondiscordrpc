@@ -1,9 +1,10 @@
 class Abletondiscordrpc < Formula
   desc "Discord Rich Presence for Ableton Live"
   homepage "https://github.com/seanhalberthal/abletondiscordrpc"
-  url "https://github.com/seanhalberthal/abletondiscordrpc/releases/download/v1.4.1/ableton-discord-rpc"
-  version "1.4.1"
-  sha256 "08d7813f3b730188dbce553cbba1c85b46cc7b3ebb422fdf692939bc9aa81c95"
+  url "https://github.com/seanhalberthal/abletondiscordrpc/releases/download/v1.4.2/ableton-discord-rpc"
+  version "1.4.2"
+  sha256 "de06dfe89d8697fea93835f530ea9f61221666378f93d9554bc4725d152bb207"
+  license "MIT"
 
   def install
     bin.install "ableton-discord-rpc"
